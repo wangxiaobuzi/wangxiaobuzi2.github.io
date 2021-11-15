@@ -73,7 +73,7 @@
     position: absolute;
     bottom: 0;
     height: 5px;
-    background-color: #aaa;
+    background-color: rgb(241, 233, 233);
     -o-transition: background-color .2s linear;
     -webkit-transition: background-color .2s linear;
     -moz-transition: background-color .2s linear;
@@ -86,14 +86,14 @@
 
 .ps-container .ps-scrollbar-x-rail:hover .ps-scrollbar-x,
 .ps-container .ps-scrollbar-x-rail.hover .ps-scrollbar-x {
-    background-color: #999
+    background-color: rgb(240, 234, 234)
 }
 
 .ps-container .ps-scrollbar-y {
     position: absolute;
     right: 0;
     width: 5px;
-    background-color: #aaa;
+    background-color: rgb(244, 247, 246);
     -webkit-transition: background-color .2s linear;
     -moz-transition: background-color .2s linear;
     -o-transition: background-color .2s linear;
@@ -170,7 +170,7 @@ a {
 }
 
 p {
-    color: #979898
+    color: #9de4e4
 }
 
 html,
@@ -304,7 +304,7 @@ body {
 .page-container .main-content .page-title .title-env .title+p {
     margin: 0;
     margin-top: 5px;
-    color: #979898
+    color: #485353
 }
 
 .page-container .main-content .page-title .breadcrumb-env {
@@ -338,13 +338,13 @@ body {
     display: table-cell;
     position: relative;
     width: 280px;
-    background: #2c2e2f;
+    background: #eceff0;
     z-index: 1
 }
 
 .sidebar-menu .logo-env {
     padding: 19px 45px;
-    border-bottom: 1px solid #313437
+    border-bottom: 1px solid #c0cfdf
 }
 
 .sidebar-menu .logo-env .logo {
@@ -362,7 +362,7 @@ body {
 }
 
 .sidebar-menu .logo-env .settings-icon a {
-    color: #979898;
+    color: #bfe0e0;
     line-height: 1
 }
 
@@ -391,7 +391,7 @@ body {
 }
 
 .sidebar-menu .main-menu a {
-    color: #979898;
+    color: #161a1a;
     text-decoration: none;
     display: block;
     padding: 13px 5px;
@@ -421,11 +421,11 @@ body {
 }
 
 .sidebar-menu .main-menu a:hover {
-    color: #fff
+    color: rgb(184, 45, 197)
 }
 
 .sidebar-menu .main-menu li.active>a {
-    color: #fff
+    color: rgb(160, 33, 33)
 }
 
 .sidebar-menu .main-menu li.has-sub>a:before {
@@ -434,7 +434,7 @@ body {
     font-family: 'icomoon' !important;
     content: '\f106';
     float: right;
-    color: #6d747a;
+    color: #bad0e2;
     margin-left: 10px;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
